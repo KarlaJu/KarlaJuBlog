@@ -1,0 +1,6 @@
+[submodule "hugo-tracks-theme"]
+	path = hugo-tracks-theme
+	url = git@github.com:KarlaJu/hugo-tracks-theme.git
+[submodule "themes/hugo-tracks-theme"]
+	path = themes/hugo-tracks-theme
+	url = git@github.com:KarlaJu/hugo-tracks-theme.git
