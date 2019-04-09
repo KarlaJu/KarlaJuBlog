@@ -4,3 +4,15 @@
 [submodule "themes/hugo-tracks-theme"]
 	path = themes/hugo-tracks-theme
 	url = git@github.com:KarlaJu/hugo-tracks-theme.git
+[submodule "themes/themes/AllinOne"]
+	path = themes/themes/AllinOne
+	url = https://github.com/orianna-zzo/AllinOne.git
+[submodule "themes/AllinOne"]
+	path = themes/AllinOne
+	url = https://github.com/orianna-zzo/AllinOne.git
+[submodule "karlaju.github.io"]
+	path = karlaju.github.io
+	url = git@github.com:KarlaJu/karlaju.github.io.git
+[submodule "public"]
+	path = public
+	url = git@github.com:KarlaJu/karlaju.github.io.git

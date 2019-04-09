@@ -1,47 +1,68 @@
 baseURL = "/"
-languageCode = "en-us"
-title = "KarlaJu"
-theme="hugo-tracks-theme"
+lddrafts                = false
+languageCode               = "zn-Hans"
+canonifyurls               = true
+contentdir                 = "content"
+layoutdir                  = "layouts"
+publishdir                 = "public"
+enableEmoji                = true
+hasCJKLanguage             = true
+summaryLength              = 200
+Paginate                   = 3
+min_version                = 0.46
+theme                      = "AllinOne"
+title                      = "Karla Jurado"
+
+pygmentsuseclasses         = true
+
+
+[permalinks]
+  blog                     = "blog/:year-:month/:slug/"
+
+
+[taxonomies]
+  tag                      = "tags"
+  series                   = "series"
+  category                 = "categories"
+
+
+[menu]
+  [[menu.main]]
+    name                   = "About"
+    weight                 = -100
+    identifier             = "about"
+    url                    = "about/"
+
+
 
 [params]
-  # Use custom.css for your custom styling
-  style = "default"
-  pages = false
-  description = "Describe your website"
-  copyright = "&copy;2016 Your name or company"
-  sidebarAbout = [
-    "I am a creative illustrator and graphic designer with more than 10 years of experience.",
-    "Originally from Toronto, currently based in London."
-  ]
+  faviconfile              = "img/zheng.png"               # from static/
+  avatar                   = "img/profile.jpg"             # path to image in static dir e.g img/avatar.png
+  author                   = "Karla Jurado"
+  description              = ["Be myself.", "Love the wonderful world.", "Sharing things."]           # appears in the site header when set to a non-empty string
+  welcome_head             = "Hello, World!"
 
-  # Contact page
-     # Since this template is static, the contact form uses www.formspree.io as a
-     # proxy. The form makes a POST request to their servers to send the actual
-     # email. Visitors can send up to a 1000 emails each month for free.
-     #
-     # What you need to do for the setup?
-     #
-     # - set your email address under 'email' below
-     # - upload the generated site to your server
-     # - send a dummy email yourself to confirm your account
-     # - click the confirm link in the email from www.formspree.io
-     # - you're done. Happy mailing!
-  email = "you@yoursite.com"
+  latestpostscount         = 5                             # how many posts to display on the home page
+  bloggroupby              = 'month'
+  dateform                 = "Jan 2, 2006"
+  dateformfull             = "2006-01-02  Monday  15:04:05"
+  noshowreadtime           = false                         # if true, don't show "<x> minutes read" in posts
 
-  # Nav links in the side bar
-  [[params.navlinks]]
-  name = "About"
-  url = "about/"
+  # slides
+  slidesDirPath            = "themes/AllinOne/static/img/header-slides"    # path to image in local dir (path for hugo)
+  slidesDirPathURL         = "img/header-slides"    # path to image in static dir (for static pages)
 
-  [[params.navlinks]]
-  name = "Home"
-  url = ""
+  # highlighting
+  highlightjs              = true
 
-  [[params.navlinks]]
-  name = "Get in touch"
-  url = "contact/"
+  # latex
+  katex                    = true
 
-  [params.social]
-  email         = "karla@makingdevs.com"
-  twitter       = " "
-  github        = "https://github.com/KarlaJu"
+  # links
+  email                    = "karla@makingdevs.com"
+  github                   = "https://github.com/KarlaJu"
+  twitter                  = "//twitter.com/you"
+
+  # analytics
+  googleAnalytics          = "your-google-analytic-id"languageCode = "en-us"
+
