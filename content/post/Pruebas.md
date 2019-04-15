@@ -4,7 +4,7 @@ showonlyimage = true
 draft = false
 date = "2018-05-14"
 title = "Pruebas"
-categories = [ "programming" ]
+categories = [ "Testing" ]
 weight = 5
 +++
 
@@ -27,10 +27,10 @@ Lo probaremos con estas cadenas para verificar si el programa funciona correctam
 >Comenzando con la prueba, crearemos la clase que nos permita ver si nuestro programa funciona. Crearemos métodos para probar cada cadena por separado.
 
 ~~~
-class ListExampleTest extends GroovyTestCase{	
+class ListExampleTest extends GroovyTestCase{
 
 	def lista = new ListExample()
-	
+
 	void testContainsAPairOfSameLetters(){
 		String text = "asdfgjwerpoq"
 		Integer result = lista.verifyIfIsANiceString(text)
@@ -42,7 +42,7 @@ class ListExampleTest extends GroovyTestCase{
 		Integer result = lista.verifyIfIsANiceString(text)
 		assert result == 1 //El uno significa que la cadena cumple
 	}
-	
+
 ~~~
 
 Nuestro programa quedaría de la siguiente forma:
@@ -60,7 +60,7 @@ class ListExample {
 	def verifyIfTheStringContainsAPairOfLettersWhichRepeats(String line){
 		line.findAll(~/(.)\1/)
 	}
-   
+
    def validationEveryString(String line){
    	(verifyIfTheStringContainsAPairOfLettersWhichRepeats(line))? true :	false
    }

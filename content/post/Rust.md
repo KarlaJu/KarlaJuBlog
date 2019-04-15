@@ -4,12 +4,12 @@ showonlyimage = true
 draft = false
 date = "2018-05-05"
 title = "Rust"
-categories = [ "programming" ]
+categories = [ "Programming", "Rust" ]
 weight = 5
 +++
 
 
->Desde hace unos días he empezado a estudiar el lenguaje de programación Rust. 
+>Desde hace unos días he empezado a estudiar el lenguaje de programación Rust.
 Rust es un lenguaje de programación de sistemas, su desarrollador es Mozilla. Ha sido diseñado para ser concurrente y practico. Está inspirado en el lenguaje de programación C.
 Al ver la sintaxis de Rust, me costó un poco de trabajo entender un poco los conceptos de variables mutables e inmutables.
 

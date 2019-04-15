@@ -4,7 +4,7 @@ showonlyimage = true
 draft = false
 date = "2018-05-05"
 title = "Advent Of Code"
-categories = [ "programming" ]
+categories = [ "Programming" ]
 weight = 5
 +++
 

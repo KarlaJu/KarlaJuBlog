@@ -1,8 +1,9 @@
----
-title: "Introducción a React Js"
-date: 2019-04-09T21:32:07-05:00
-draft: true
----
++++
+title = "Introducción a React Js"
+date = 2019-04-09T21:32:07-05:00
+categories = [ "Programming", "React" ]
+draft = true
++++
 
 
 ## ¿Qué es?
