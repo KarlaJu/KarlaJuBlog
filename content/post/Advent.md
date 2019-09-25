@@ -1,12 +1,12 @@
-+++
-image = "img/portfolio/advent.jpg"
-showonlyimage = true
-draft = false
-date = "2018-05-05"
-title = "Advent Of Code"
-categories = [ "Programming" ]
-weight = 5
-+++
+---
+title: "Advent Of Code"
+img: "img/portfolio/advent.jpg"
+showonlyimage: true
+draft: false
+date: "2018-05-05"
+categories: [ "Programming" ]
+weight: 5
+---
 
 Durante todo el mes de Abril y lo que lleva el mes de Mayo he resuelto problemas de la página Advent of Code el evento 2015.
 

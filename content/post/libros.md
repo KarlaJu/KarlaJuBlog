@@ -1,0 +1,84 @@
+---
+title: "Libros 2019"
+date: 2019-09-24T21:44:42-05:00
+draft: true
+series: ["books"]
+---
+# 2019
+---
+- **Blade Runner** ~ Philip K. Dick
+- **La noche del parque** ~ Roberto Lizarraga Jiménez
+- **Romeo y Julieta** ~ W. Shakespeare
+- **El bosque del cisne negro** ~ David Mitchell
+- **El encuentro con lo desconocido** ~ Emiliano Ortega
+- **Túneles** ~ Rodereck Gordon & Brian Williams
+- **Profundidades** ~ Rodereck Gordon & Brian Williams
+- **Burami y el rey rojo** ~ Ricardo Riera
+- **La broma asesina** ~ Alan Moore
+- **La torre oscura VII** ~ Stephen King
+- **Kingdom come** ~ Alex Ross
+- **Laurie** ~ Stephen King
+- **Dunas** ~ Frank Herbert
+- **El monte de las ánimas** ~ G.A.P
+- **La botellita de cristal** ~ H. P. Lovecraft
+- **EL dios de las orejas de perro** ~  Frank
+- **La lámpara de Alhazred** ~ H. P. Lovecraft
+- **Memoria** ~ H. P. Lovecraft
+- **El loco** ~ La sabiduría interior
+- **Número Trece** ~ Montague Rhodes James
+- **El miserere** ~ Gustavo Adolfo Bécquer
+- **El devorador de fantasmas** ~ H. P. Lovecraft
+- **El cable nocturno** ~ H. F. Arnold
+- **El espejo** ~ Haruki Murakami
+- **Biología desconocida** ~ Walter alejandro Lenkovich
+- **El sótano** ~ Federico Domenella
+- **La biblioteca de babel** ~ Jorge Luis Borges
+- **El devoto del mal** ~ Clark Ashton Smith
+- **El último turno** ~ Stephen King
+- **El sendero del mago** ~ Deepak Chopra
+- **El caballero de la armadura oxidada** ~ Robert Fisher
+- **El final de la historia** ~ Clark Ashton Smith
+- **La abuela** ~ Stephen King
+- **Las ruinas de ngranek** ~ Esteban Dilo
+- **Ojos** ~ Elena Rubio
+- **A la deriva** ~ Horacio Quiroga
+- **El lobo** ~ Guy de Maupassant
+- **La gallina degollada** ~ Horacio Quiroga
+- **El capitán Kauffman** ~ George Valencia
+- **El ghoul** ~ Clark Ashton Smith
+- **No era yo** ~ Walter Alejandro Lenkovich
+- **Psicosis** ~ Alfred Hitchcock
+- **El lote n.249** ~ Arthur Conan Doyle
+- **Soy la puerta** ~ Stephen King
+- **El alambre de púa** ~ Horacio Quiroga
+- **El hombre del traje negro** ~ Stephen King
+- **El signo de los cuatro** ~ Arthur Conan Doyle
+- **Embargo** ~ José Saramago
+- **La isla desconocida** ~ José Saramago
+- **La prodigiosa tarde de Baltazar** ~ Gabriel García Márquez
+- **La imagen de la muerte** ~ Stephen King
+- **Todos los nombres** ~ José Saramago
+- **Cien años de soledad** ~ Gabriel García Márquez
+- **El extranjero** ~ Albert Camus
+- **1984** ~ George Orwell
+- **El túnel** ~ Ernesto Sabato
+- **El resplandor** ~ Stephen King
+- **Doctor sueño** ~ Stephen King
+- **El asesino** ~ Stephen King
+- **Ojos de fuego** ~ Stephen King
+- **El visitante del cementerio** ~ Vernon Shea
+- **La niebla(Cuento)** ~ Stephen King
+- **Un mundo feliz(Adaptación)** ~ Aldous Huxley
+- **El guardián del horror** ~ E. A. P. / H. P. Lovecraft
+- **El extraño caso de Richard Clayton** ~ Robert Bloch
+- **La puerta condenada** ~ Julio Cortázar
+- **Silencio** ~ E. A. P
+- **No tengo boca y debo gritar** ~ Harlan Ellison
+- **Archie** ~ Isaac Asimov
+- **El escrito de dios** ~ Jorge Luis Borges
+- **Factor clave** ~ Isaac Asimov
+- **Luz estelar** ~ Isaac Asimov
+- **Exilio** ~ Edmond Hamilton
+- **Los ojos hacen algo más que ver** ~ Isaac Asimov
+- **Los 9 mil millones nombres de Dios** ~ Arthur C. Clarke
+- **¿Cómo ocurrió?** ~ Isaac Asimov
