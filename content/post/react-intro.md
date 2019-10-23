@@ -2,6 +2,7 @@
 title = "Introducción a React Js"
 date = 2019-04-09T21:32:07-05:00
 categories = [ "Programming", "React" ]
+series: ["technology"]
 draft = true
 +++
 
