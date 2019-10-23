@@ -1,10 +1,49 @@
 ---
 title: "Introducción a Swift"
 date: 2019-10-20T21:45:28-05:00
+series: ["technology"]
+categories: [ "Swift" ]
 draft: true
 ---
 
 ## Introducción a Swift
+
+### Contenido
+[1.- Variables](#variables)
+
+[2.- Constantes](#constantes)
+
+[3.- Tipos de datos](#tipos-de-datos)
+
+- [3.1.- Entero](#entero)
+
+- [3.2.- Cadenas](#cadenas)
+
+- [3.3.- Flotante](#flotante)
+
+- [3.4.- Double](#double)
+
+
+[4.- Modelado de datos](#modelado-de-datos)
+
+- [4.1.- Tuplas](#tuplas)
+
+ - [4.1.1.- Switch](#switch)
+
+- [4.2.- Opcionales](#opcionales)
+
+ - [4.2.1.- IF LET](#if-let)
+
+- [4.3.- Arreglos](#arreglos)
+
+- [4.4.- Enums](#enums)
+
+ - [4.4.1.- Switch con enums](#switch-con-enums)
+
+- [4.5.- Diccionarios](#diccionarios)
+
+- [4.6.- Conjuntos](#conjuntos)
+
 ### Variables
 La declaración de una variable, puede ser de dos formas:
 ```swift
@@ -34,7 +73,7 @@ let number: Int8 = 120 //Se puede indicar el valor máximo que usará
 En este caso se genera un error en tiempo de ejecución, el compilador al usar 'y' y saber qué es de tipo Int8, le pone el mismo tipo de dato a 'z'. Pero al ejecutarse la variable rebasa su valor máximo.
 ```swift
 let y: Int8 = 120
-let z = y + 10 // Genera un error de ejecucion, al compilar se le asigna un tipo de datos Int8 a la variable
+let z = y + 10 // Genera un error de ejecución, al compilar se le asigna un tipo de datos Int8 a la variable
 
 let z = y &+ 10 // El & indica que swift se comporte como C, genera un overflow pero el resultado es -126
 ```
@@ -66,7 +105,7 @@ myString2.unicodeScalars.count //imprime: 10
 
 
 //Estructuras de control
-//Lo que devulve indices es un iterador
+//Lo que devuelve indices es un iterador
 for index in myString2.indices {
   print("La salida es: \(myString2[index])")
 }
@@ -117,7 +156,7 @@ print(errorCode2.description) //imprime: Not Found
 ```
 Asignación de variables con Pattern Matching de una tupla:
 ```swift
-//Funciona como una afirmacion
+//Funciona como una afirmación
 //Lo que esta del lado izquierdo es igual a lo que tengo del lado derecho
 //Se de-estructura para poder extraer valores
 
@@ -196,7 +235,7 @@ x4 = nil //Error de compilación
 De esta manera, es más visual que la variable puede ser nula. Cuando la variable es declarada como posible nula, es necesario forzar a sacar el valor de la variable.
 ```swift
 var  f: Float? = 1.0
-let  flotante = f! +  1.9  //El signo de admiracion es para forzar a sacar valor
+let  flotante = f! +  1.9  //El signo de admiración es para forzar a sacar valor
 ```
 > Se recomiendo evitar optionals siempre
 
@@ -204,7 +243,7 @@ let  flotante = f! +  1.9  //El signo de admiracion es para forzar a sacar valor
 En caso de realmente necesitar usar una variable que tal vez sea nula. La mejor forma de manejarla es con un if let. Si la variable es nula, no hará nada con la variable.
 ```swift
 if  let x = f {
-  print("Todo bien \(x+1)") //Tambien se puede quedar con el if, sin la necesidad de usar else
+  print("Todo bien \(x+1)") //También se puede quedar con el if, sin la necesidad de usar else
 } else {
   print("El opcional no tiene valor")
 }
@@ -229,11 +268,11 @@ if  let s = cadenaOpcional, let i = Int(s) { //Si es necesario que lleve las lla
 ```swift
 var  librosFavoritos1: [String] = ["Aprende Swift en 3 segundos",
 "Elm para principiantes",
-"Crea sitios increibles con Elixir"]
+"Crea sitios increíbles con Elixir"]
 
 var  librosFavoritos = ["Aprende Swift en 3 segundos",
 "Elm para principiantes",
-"Crea sitios increibles con Elixir"] //Inferencia de tipos
+"Crea sitios increíbles con Elixir"] //Inferencia de tipos
 ```
 Algunas funciones con arreglos:
 ```swift
@@ -242,10 +281,10 @@ librosFavoritos.first  //Imprime: Aprende Swift en 3 segundos
 librosFavoritos.last  //Imprime: Crea sitios increibles con Elixir
 librosFavoritos[1]  //Imprime: Elm para principiantes
 librosFavoritos.append("Code complete")  //Imprime: ["Aprende Swift en 3 segundos", "Elm para principiantes", "Crea sitios increibles con Elixir", "Code complete"]
-librosFavoritos[2]  //Imprime: Crea sitios increibles con Elixir
-librosFavoritos.insert("The art of unix programming", at: 2) //Imprime: ["Aprende Swift en 3 segundos", "Elm para principiantes", "The art of unix programming", "Crea sitios increibles con Elixir", "Code complete"]
+librosFavoritos[2]  //Imprime: Crea sitios increíbles con Elixir
+librosFavoritos.insert("The art of unix programming", at: 2) //Imprime: ["Aprende Swift en 3 segundos", "Elm para principiantes", "The art of unix programming", "Crea sitios increíbles con Elixir", "Code complete"]
 librosFavoritos[2]  //Imprime: The art of unix programming
-librosFavoritos.remove(at: 3)  //Imprime: Crea sitios increibles con Elixir
+librosFavoritos.remove(at: 3)  //Imprime: Crea sitios increíbles con Elixir
 ```
 Iterar arreglos:
 ```swift
@@ -288,7 +327,7 @@ Si se coloca un default incluso contemplando todos los casos, el compilador mand
 ```swift
 switch  diaSemana {
   case .Lunes:
-    print("Otra vez a trbajar")
+    print("Otra vez a trabajar")
   case .Martes:
     print("Ya quiero que acabe la semana")
   case .Miércoles:
@@ -350,7 +389,7 @@ Algunas funciones con conjuntos:
 amigos3.insert("Julian") //Imprime: (inserted true, memberAfterInsert "Julian")
 amigos3.remove("Ernesto")
 //No acepta duplicados
-//Regresar una isercion falsa si se inserta un duplicado
+//Regresar una inserción falsa si se inserta un duplicado
 
 amigos3.insert("Julian")  //Imprime: (inserted false, memberAfterInsert "Julian")
 
@@ -358,7 +397,7 @@ let  estaVacio = amigos3.isEmpty  //Imprime: false
 let  estaAndres = amigos3.contains("Andres")  //Imprime: true
 let  numeroAmigos = amigos3.count  //Imprime: 4
 
-//Intersecciones, diferencia de interesecciones y la union
+//Intersecciones, diferencia de intersecciones y la union
 
 let  comunes = amigos2.intersection(amigos3)  //Imprime: {"Andres"}
 let  diferencias = amigos2.symmetricDifference(amigos3)  //Imprime: {"Ernesto", "Julieta", "Fabian", "Freddy", "Julian", "Violeta"}
@@ -369,10 +408,11 @@ let  resta2 = amigos2.subtracting(amigos3) //Imprime: {'Julieta', 'Violeta', 'Er
 
 Iterando conjuntos:
 
-- No hay que perder de vista que no hay garantia de orden
+- No hay que perder de vista que no hay garantía de orden
 
 ```swift
 for amigo in amigos3 {
   print("\(amigo) es mi amigo")
 }
 ```
+
