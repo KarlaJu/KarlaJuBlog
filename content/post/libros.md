@@ -19,6 +19,7 @@ series: ["books"]
 - **Kingdom come** ~ Alex Ross
 - **Laurie** ~ Stephen King
 - **Dunas** ~ Frank Herbert
+- **Ese lugar existe** ~ Ulises Paniagua
 - **El monte de las ánimas** ~ G.A.P
 - **La botellita de cristal** ~ H. P. Lovecraft
 - **EL dios de las orejas de perro** ~  Frank
@@ -82,3 +83,49 @@ series: ["books"]
 - **Los ojos hacen algo más que ver** ~ Isaac Asimov
 - **Los 9 mil millones nombres de Dios** ~ Arthur C. Clarke
 - **¿Cómo ocurrió?** ~ Isaac Asimov
+- **Memorias** ~ H. P. Lovecraft
+- **Rosa de fuego** ~ Carlos Ruiz Zafón
+- **Sombra** ~ E. A. P. 
+- **El ruido de un trueno** ~ Ray Bradbury
+- **Mundo virtual** ~ Alejandro Madruga
+- **Mind uploading** ~ José Cascales
+- **Robbie** ~ Isaac Asimov
+- **Reconstruyendo una vida** ~ Alejandro Madruga
+- **Vendrán lluvias suaves** ~ Ray Bradbury
+- **El primero** ~ Vladimir Argüello
+- **El regalo** ~ Ray Bradbury
+- **Mutación** ~ José Cascales
+- **A quien corresponda** ~ José Cascales
+- **El hermano de las máquinas** ~ Richard Matheson
+- **El hombre invisible** ~ H. G. Wells
+- **El hombre de la cortadora de cesped** ~ Stephen King
+- **El fumador de pipa** ~ Martín Armstrong
+- **El guardavías** ~ Charles Dickens
+- **El wendigo** ~ Algernon Blackgood
+- **La trituradora** ~ Stephen King 
+- **El brazo** ~ Stephen King
+- **El camión de tío Otto** ~ Stephen King 
+- **En la hierba alta** ~ Stephen King 
+- **En el bosque** ~ Ryunosuke Akutagawa
+- **Un juguete para Juliette** ~ Robert Bloch
+- **El testamento de Magdalen Blair** ~ Ailester Crowl
+- **Un lugar hospitalario** ~ Robert Bloch
+- **La capa** ~ Robert Bloch
+- **Descanso sabatino** ~ Robert Bloch
+- **Atentamente Jack el destripador** ~ Robert Bloch
+- **Escuela nocturna** ~ Robert Bloch
+- **El metal que te encanta tocar** ~ Robert Bloch
+- **Un hombre con manías** ~ Robert Bloch
+- **Traición** ~ Robert Bloch
+- **Las tumbas de Yoh Vombis** ~ Clark Ashton Smith
+- **El muerto viviente** ~ Robert Bloch 
+- **Los tres instrumentos de la muerte** ~ G. K. Chesterton
+- **El vampiro estelar** ~ Robert Bloch
+- **Carta abierta a Howart Philip Lovecraft** ~ Robert Bloch
+- **Una cuestión de identidad** ~ Robert Bloch
+- **Los versos nunca pagan** ~ Robert Bloch 
+- **Algunas clases de vida** ~ Philip K. Dick
+- **El arte mortífero** ~ Robert Bloch
+- **Cosas de niños** ~ Isaac Asimov
+- **El beso siniestro** ~ Robert Bloch
+- **El juego de Gerald** ~ Stephen King
