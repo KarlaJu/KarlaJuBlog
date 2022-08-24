@@ -1,9 +1,6 @@
 [submodule "hugo-tracks-theme"]
 	path = hugo-tracks-theme
 	url = git@github.com:KarlaJu/hugo-tracks-theme.git
-[submodule "themes/themes/AllinOne"]
-	path = themes/themes/AllinOne
-	url = https://github.com/orianna-zzo/AllinOne.git
 [submodule "themes/AllinOne"]
 	path = themes/AllinOne
 	url = git@github.com:KarlaJu/AllinOne.git
