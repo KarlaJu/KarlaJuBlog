@@ -27,13 +27,23 @@ pygmentsuseclasses         = true
 
 
 [menu]
+
+  [[menu.main]]
+    name                   = "Posts"
+    weight                 = -120
+    identifier             = "posts"
+    url                    = "posts/"
+  [[menu.main]]
+    name                   = "Books"
+    weight                 = -110
+    identifier             = "books"
+    url                    = "books/"
+
   [[menu.main]]
     name                   = "About"
     weight                 = -100
     identifier             = "about"
     url                    = "about/"
-
-
 
 [params]
   faviconfile              = "img/zheng.png"               # from static/
