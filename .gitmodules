@@ -4,6 +4,9 @@
 [submodule "themes/hugo-tracks-theme"]
 	path = themes/hugo-tracks-theme
 	url = git@github.com:KarlaJu/hugo-tracks-theme.git
+[submodule "themes/hugo-theme-massively"]
+	path = themes/hugo-theme-massively
+	url = https://github.com/curtiscde/hugo-theme-massively.git
 [submodule "themes/themes/AllinOne"]
 	path = themes/themes/AllinOne
 	url = https://github.com/orianna-zzo/AllinOne.git
