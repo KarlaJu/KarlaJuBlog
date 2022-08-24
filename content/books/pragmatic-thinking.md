@@ -1,10 +1,10 @@
 ---
 title: "Pragmatic Thinking & Learning's Tips"
 date: 2020-02-07T10:41:59-06:00
+series: ["pragprog"]
 draft: true
 ---
 
-series: ["pragmaticProgrammerBook"]
 I collected tips and observations from the amazing book: <u>Pragmatic Thinking & Learning written by Andy Hunt.</u>
 
 >  **The essence of pragmatism is to do what works for you.**

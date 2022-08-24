@@ -1,10 +1,10 @@
 ---
 title: "Pragmatic Programmer"
 date: 2022-08-23T21:27:29-05:00
+series: ["pragprog"]
 draft: false 
 ---
 
-series: ["pragmaticProgrammerBook"]
 # The Pragmatic Programmer 
 #### Extract from the book of david Thomas and Andrew Hunt
 
