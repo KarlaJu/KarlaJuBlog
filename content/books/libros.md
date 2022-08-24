@@ -1,9 +1,9 @@
 ---
 title: "Libros 2019"
 date: 2019-09-24T21:44:42-05:00
+series: ["books"]
 draft: true
 img: "img/portfolio/libros-antiguos.webp"
-series: ["books"]
 ---
 # 2019
 ---
